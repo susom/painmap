@@ -2,6 +2,60 @@
 All notable changes to the Imagemap module will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.4.4] - 2019-12-06
+### Added
+- Add DOI to README (Philip Chase)
+
+
+## [1.4.3] - 2019-12-04
+### Added
+- Improve documentation. (Geoffroey-Allen Franklin)
+- Add DO-Touch.NET images, maps, and description. (Geoffroey-Allen Franklin)
+- Standardize DO-Touch.NET filenames. (Marly Gotti)
+
+### Changed
+- Use noauth but NOT api endpoint to load JS files (Kyle Chesney)
+
+
+## [1.4.2] - 2019-06-27
+### Added
+- Add description and copyright information for the mbody and va_char imagemaps. (Marly Cormar)
+- Include image info and standarize maps. (Marly Cormar)
+- Add new imagemap va_chart and its info to the README.md (Marly Cormar)
+- Add pirads to instrument example (Kyle Chesney)
+- Add mbody image, update sample instrument, and modify config.json accordinglu. (Marly Cormar)
+- Include 5_face_painmap on the sample instrument. (Marly Cormar)
+- add description of new face painmap (Kyle Chesney)
+
+## Changed
+- Correct path to example instrument in the documentation.php and the README.md. (Marly Cormar)
+- Rename rheumatoid_man_map.html file to rheumatoid_man.html. (Marly Cormar)
+- Update 5_face_painmap image name on the README.md. (Marly Cormar)
+- Rename 5_face_painscale.png to 5_face_painmap.png to maintain module aesthetic standards. (Marly Cormar)
+- update README to show painmap from lewisa2, fix markdown formatting (Kyle Chesney)
+- create developer notes to describe state of ImageMapster use (Kyle Chesney)
+- Create 5_face_painmap.html (lewisa2)
+- Fix function call by referencing the object on which it was defined. (Marly Cormar)
+
+
+## [1.4.1] - 2019-06-06
+### Changed
+- Remove dangling map tag. (Marly Cormar)
+
+
+## [1.4.0] - 2019-04-17
+### Changed
+- Aesthetic changes to the documentation. (Marly Cormar)
+- Update text about Rheumatoid Man (Philip Chase)
+- Update docs and config.json for Rheumatoid man and example instrument (Philip Chase)
+- Update example instrument and remove duplication. (Marly Cormar)
+- Include example for RHEUMATOID_MAN. (Marly Cormar)
+- Document new imagemap RHEUMATOID_MAN. (Marly Cormar)
+- Include rheumatoid_man in the config.json (BlaineVlan)
+- Added Rheumatoid Man imagemap and rheumatoid_man_map.html (BlaineVlan)
+- Add small formatting changes (Will Beasley)
+
+
 ## [1.3.1] - 2018-09-06
 ### Changed
 - Adding attribution for PIRADS images to Dr. Fan (Andrew Martin)
