@@ -258,6 +258,18 @@
             "height": 916,
             "hideInput": true,
             "map": "maps/va_chart.html"
+        },
+        "DERM_PHOTO_BODY": {
+            "name": "derm_photo_body",
+            "alt": "Dermatology Body Photo Map",
+            "desc": "Body Part Diagram for Photo Upload",
+            "options": "f01,f02,f03,f04,f05,f06,r02",
+            "data_dict_default": "f01, Face | f02, Chest | f03, Right Arm | f04,Left Arm | f05,Right Leg | f06, Left Leg | r02, Back",
+            "image": "img/derm_photo_body.png",
+            "width": 851,
+            "height": 762,
+            "hideInput": true,
+            "map": "maps/derm_photo_body.html"
         }
     }
 }
