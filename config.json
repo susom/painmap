@@ -30,6 +30,14 @@
     "compatibility": {
         "redcap-version-min": "8.0.3"
     },
+    "system-settings": [
+        {
+            "key": "use-api-urls",
+            "name": "<b>Use API endpoint for urls</b><br>If you use SAML you may need to use the API endpoint for js urls in order for public (non-authenticated) browsers to be able to use this moduleon a survey",
+            "required": false,
+            "type": "checkbox"
+        }
+    ],
     "default-image-maps": {
         "PAINMAP_MALE": {
             "name": "painmap_male",
