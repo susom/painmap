@@ -3,6 +3,14 @@ All notable changes to the Imagemap module will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
 
+## [1.6.0] - 2020-08-17
+### Added
+- Reduce mbody image size by 50% (willsvankumc)
+- Adds Authors File and ReadMe adjustment (James Pence)
+- Adds PI-RADS V2.1 (Geoffroey-Allen Franklin)
+- Adds DO-Touch.NET OMT bodymap (Geoffroey-Allen Franklin)
+
+
 ## [1.5.0] - 2020-07-06
 ### Added
 - Add 66 Swollen 68 Tender Joint Count Map (tom.lynch)
