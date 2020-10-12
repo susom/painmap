@@ -108,8 +108,7 @@ The 66 Swollen / 68 Tender Joint Count can be used to record the number of tende
 
 **`FIBROMYALGIA_BODY`**
 
-This is a Patient self-report figure for the Assessment of Fibromyalgia. Clauw DJ. Fibromyalgia: A Clinical Review. JAMA. 2014;311(15):1547-1555. doi:10.1001/jama.2014.3266. Downloaded from http://jama.jamanetwork.com. Copyright 2014 American Medical Association. All rights reserved.
-![FIBROMYALGIA_BODY](./img/fibromyalgia.png)
+This is a Patient self-report figure for the Assessment of Fibromyalgia.
 
 ## Usage
 To display one of the images above in a survey or data entry form, add a new field of type **Text Box** and include one of the following options in the **Action Tags / Field Annotation (optional)** field:
@@ -153,3 +152,4 @@ This project includes an [Example Instrument](docs/Instrument\ Example.zip) that
  * The Michigan Body Map (MBODY) image was created by the Division of Pain Research Anesthesiology of the University of Michigan. Please refer to their [website](https://medicine.umich.edu/dept/pain-research/clinical-research/michigan-body-map-mbm) for copyright information.
  * The DO-Touch.NET body map was created by Jamie Carroll using the international standard for osteopathic manipulative medicine (OMM) research established by DO-Touch.NET. Use of this image map requires the attributions to remain in place. [website](https://www.do-touch.net). Jane Coe Johnson jjohnson@atsu.edu assisted Geoffroey-Allen Franklin gfranklin@atsu.edu updating information about the DO-Touch.NET image maps.
  * The 66 Swollen / 68 Tender Joint Map was contributed by Dr Tom Lynch from the Institute of Bone and Joint Research, University of Sydney. The image was adopted with permission from Dr Alexis Ogdie-Beatty and first published in this article from the OMERACT group: [website](http://www.jrheum.org/content/early/2019/05/24/jrheum.181089).
+ * Fibromyalgia self-report image appears in the article ["Fibromyalgia: A Clinical Review"](https://jamanetwork.com/journals/jama/fullarticle/1860480) by Daniel J. Clauw and is available for public download and usge. Copyright 2014 American Medical Association. All rights reserved.
