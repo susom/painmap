@@ -110,6 +110,8 @@ The 66 Swollen / 68 Tender Joint Count can be used to record the number of tende
 
 This is a Patient self-report figure for the Assessment of Fibromyalgia.
 
+![FIBROMYALGIA_BODY](./img/fibromyalgia.png)
+
 ## Usage
 To display one of the images above in a survey or data entry form, add a new field of type **Text Box** and include one of the following options in the **Action Tags / Field Annotation (optional)** field:
 
