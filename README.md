@@ -106,7 +106,7 @@ DO-Touch.NET body region image map designed for use in osteopathic manipulative 
 The 66 Swollen / 68 Tender Joint Count can be used to record the number of tender and swollen joints in patients with inflammatory arthritis e.g. psoriatic arthritis, rheumatoid arthritis. These counts can be used in calculated fields to generate disease activity scores in combination with other variables e.g. DAPSA, DAS28 scores.
 ![66SWOLLEN_68TENDER_JOINT_COUNT](./img/66swollen_68tender_joint_count.png)
 
-**'FIBROMYALGIA_BODY'**
+**`FIBROMYALGIA_BODY`**
 
 This is a Patient self-report figure for the Assessment of Fibromyalgia. Clauw DJ. Fibromyalgia: A Clinical Review. JAMA. 2014;311(15):1547-1555. doi:10.1001/jama.2014.3266. Downloaded from http://jama.jamanetwork.com. Copyright 2014 American Medical Association. All rights reserved.
 ![FIBROMYALGIA_BODY](./img/fibromyalgia.png)
