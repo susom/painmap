@@ -266,7 +266,7 @@ imageMapEM.updateAreaList = function(image, data) {
         var selected = data.selected;
         //imageMapEM.log ('is selected: ' + selected);
         if (checked !== selected) {
-            $(this).click().trigger('onclick');
+            $(this).click();
             //$(this).blur();
         }
     });
