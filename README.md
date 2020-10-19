@@ -111,6 +111,11 @@ The 66 Swollen / 68 Tender Joint Count can be used to record the number of tende
 French Region 2020 : to localize in one click a region - Région Française 2020 : Pour localiser en un clic une région.
 ![FR_REGION](./img/france_region_nb.png)
 
+**`FIBROMYALGIA_BODY`**
+
+This is a Patient self-report figure for the Assessment of Fibromyalgia.
+![FIBROMYALGIA_BODY](./img/fibromyalgia.png)
+
 ## Usage
 To display one of the images above in a survey or data entry form, add a new field of type **Text Box** and include one of the following options in the **Action Tags / Field Annotation (optional)** field:
 
@@ -132,6 +137,7 @@ To display one of the images above in a survey or data entry form, add a new fie
 @IMAGEMAP=DO_TOUCH_NET_BODY_GREY
 @IMAGEMAP=66SWOLLEN_68TENDER_JOINT_COUNT
 @IMAGEMAP=FR_REGION
+@IMAGEMAP=FIBROMYALGIA_BODY
 ```
 
 Each region of an image is associated with a key, for example, the "Ankle (front-left)" of the female body diagram is linked to the key "f34". To find a particular key for a body part, please refer to the HTML files (map files) located in the folder `maps`. After selecting multiple body parts, the field containing the action tag `@IMAGEMAP` will have as a value a string of comma-separated keys, e.g. "f36,f17,f18,f21". Similarly, if using the faces diagram, the field containing the action tag (e.g. `@IMAGEMAP=SMILE_SCALE`) will have the value corresponding to the face clicked.
@@ -154,3 +160,4 @@ This project includes an [Example Instrument](docs/Instrument\ Example.zip) that
  * The DO-Touch.NET body map was created by Jamie Carroll using the international standard for osteopathic manipulative medicine (OMM) research established by DO-Touch.NET. Use of this image map requires the attributions to remain in place. [website](https://www.do-touch.net). Jane Coe Johnson jjohnson@atsu.edu assisted Geoffroey-Allen Franklin gfranklin@atsu.edu updating information about the DO-Touch.NET image maps.
  * The 66 Swollen / 68 Tender Joint Map was contributed by Dr Tom Lynch from the Institute of Bone and Joint Research, University of Sydney. The image was adopted with permission from Dr Alexis Ogdie-Beatty and first published in this article from the OMERACT group: [website](http://www.jrheum.org/content/early/2019/05/24/jrheum.181089).
  * The FR_REGION was contributed by Hugo Potier of University Hospital of Nîmes. The image source come from [data.gouv.fr](http://data.gouv.fr).
+ * Fibromyalgia self-report image appears in the article ["Fibromyalgia: A Clinical Review"](https://jamanetwork.com/journals/jama/fullarticle/1860480) by Daniel J. Clauw and is provided by Thomas Van Doorn and Dr. Andrea Nicol. Copyright 2014 American Medical Association. All rights reserved.
