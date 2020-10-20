@@ -273,6 +273,33 @@
             "height": 614,
             "hideInput": true,
             "map": "maps/66swollen_68tender_joint_count.html"
+        },
+		"FR_REGION": {
+            "name": "fr_region",
+            "alt": "French Region 2020 - Région Française 2020",
+            "desc": "French Region 2020 : to localize in one click a region - Région Française 2020 : Pour localiser en un clic une région.",
+            "options": "1,2,3,4,6,11,24,27,28,32,44,52,53,75,76,84,93,94",
+            "data_dict_default": "1,GUADELOUPE | 2,MARTINIQUE | 3,GUYANE | 4,LA REUNION | 6,MAYOTTE | 11,ILE DE FRANCE | 24,CENTRE VAL DE LOIRE | 27,BOURGOGNE FRANCHE COMTE | 28,NORMANDIE | 32,HAUTS DE FRANCE | 44,GRAND EST | 52,PAYS DE LA LOIRE | 53,BRETAGNE | 75,NOUVELLE AQUITAINE | 76,OCCITANIE | 84,AUVERGNE RHONE ALPES | 93,PROVENCE ALPES COTE D AZUR | 94,CORSE",
+            "image": "img/france_region_nb.png",
+            "width": 765,
+            "height": 701,
+            "hideInput": true,
+			"singleSelect": true,
+            "map": "maps/fr_region.html"
+        },
+        "FIBROMYALGIA_BODY": {
+            "name": "fibromyalgia_body",
+            "alt": "Fibromyalgia Bodymap",
+            "desc": "Bodymap for use in Fibromyalgia research.",
+            "options": "01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19",
+            "data_dict_default": "01, Right jaw | 02, Left jaw | 03, Neck | 04, Right Shoulder | 05, Left Shoulder | 06, Chest or breast | 07, Upper back | 08, Right upper arm | 09, Left upper arm | 10, Abdomen | 11, Lower back | 12, Right lower arm | 13, Left lower arm | 14, Right hip or buttocks | 15, Left hip or buttocks | 16, Right upper leg | 17, Left upper leg | 18, Right lower leg | 19, Left lower leg",
+            "image": "img/fibromyalgia.png",
+            "width": 708,
+            "height": 867,
+            "hideInput": true,
+            "singleSelect": false,
+            "fillColor": "0000cc",
+            "map": "maps/fibromyalgia.html"
         }
     }
 }

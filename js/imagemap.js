@@ -241,9 +241,11 @@ imageMapEM.loadAreaList = function(field_name) {
 
     // For radio button questions, the main input is here - use it to set value
     $('input[name="'+field_name+'"]', tr).each(function() {
-        $(img).mapster('set',true,$(this).val());
+        let val = $(this).val();
+        if ( $(img).mapster('get') != val ) { // avoid infinite loop
+            $(img).mapster('set',true,val);
+        };
     });
-
 }
 
 // Takes the values from the image map and saves them to the redcap form
@@ -266,7 +268,7 @@ imageMapEM.updateAreaList = function(image, data) {
         var selected = data.selected;
         //imageMapEM.log ('is selected: ' + selected);
         if (checked !== selected) {
-            $(this).click().trigger('onclick');
+            $(this).click();
             //$(this).blur();
         }
     });
