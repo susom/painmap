@@ -7,16 +7,6 @@
     ],
     "authors": [
         {
-            "name": "Marly Cormar",
-            "email": "marlycormar@ufl.edu",
-            "institution": "University of Florida - CTSI"
-        },
-        {
-            "name": "Tiago Bember",
-            "email": "tbembersimeao@ufl.edu",
-            "institution": "University of Florida - CTSI"
-        },
-        {
             "name": "Andy Martin",
             "email": "andy123@stanford.edu",
             "institution": "Stanford University"
@@ -114,7 +104,7 @@
             "alt": "Smile Scale",
             "desc": "A smile scale from Happy (1) to Sad (7)",
             "options": "1,2,3,4,5,6,7",
-            "data_dict_default":"1,1|2,2|3,3|4,4|5,5|6,6|7,7",
+            "data_dict_default": "1,1|2,2|3,3|4,4|5,5|6,6|7,7",
             "image": "img/smile_scale.png",
             "width": 602,
             "height": 147,
@@ -175,6 +165,19 @@
             "data_dict_default": "1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11 | 12, 12 | 13, 13 | 14, 14 | 15, 15 | 16, 16 | 17, 17 | 18, 18 | 19, 19 | 20, 20 | 21, 21 | 22, 22 | 23, 23 | 24, 24 | 25, 25 | 26, 26 | 27, 27 | 28, 28 | 29, 29 | 30, 30",
             "fillColor": "00aa00"
         },
+        "PI-RADS_V2-1": {
+            "name": "pi-rads_v2-1",
+            "alt": "PI-RADS v2.1",
+            "desc": "Prostate imaging - reporting and data system version 2.1 (2019)",
+            "image": "img/pirads_v2.1.png",
+            "width": "513",
+            "height": "631",
+            "map": "maps/pirads_v2.1.html",
+            "hideInput": true,
+            "options": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41",
+            "data_dict_default": "1, Right seminal vesicles | 2, Left seminal vesicles | 3, Right anterior fibromuscular stroma base | 4, Left anterior fibromuscular stroma base | 5, Right anterior peripheral zone base | 6, Left anterior peripheral zone base | 7, Right anterior transition zone base | 8, Left anterior transition zone base | 9, Right lateral posterior peripheral zone base | 10, Left lateral posterior peripheral zone base | 11, Right posterior reansition zone base | 12, Left posterior transition zone base | 13, Right centeral zone base | 14, Left central zone base | 15, Right medial posterior peripheral zone base | 16, Left medial posterior peripheral zone base | 17, Right anterior fibromuscular stroma mid | 18, Left anterior fibromuscular stroma mid | 19, Right anterior peripheral zone mid | 20, Left anterior peripheral zone mid | 21, Right anterior transition zone mid | 22, Left anterior transition zone mid | 23, Right lateral posterior peripheral zone mid | 24, Left lateral posterior peripheral zone mid | 25, Right posterior transition zone mid | 26, Left posterior transition zone mid | 27, Right medial posterior peripheral zone mid | 28, Left medial posterior peripheral zone mid | 29, Right anterior fibromuscular stroma apex | 30, Left anterior fibromuscular stroma apex | 31, Right anterior peripheral zone apex | 32, Left anterior peripheral zone apex | 33, Right anterior transition zone apex | 34, Left anterior transition zone apex | 35, Right lateral posterior peripheral zone apex | 36, Left lateral posterior peripheral zone apex | 37, Right medial posterior peripheral zone apex | 38, Left medial posterior peripheral zone apex | 39, Right posterior transtion zone apex | 40, Left posterior transtion zone apex | 41, External urethral sphincter",
+            "fillColor": "00aa00"
+        },
         "BEES": {
             "name": "improved_pain_scale",
             "alt": "Improved Pain Scale",
@@ -219,8 +222,8 @@
             "alt": "Michigan Body Map",
             "desc": "Michigan Body Map (MBM) reflects body areas where chronic pain may be experienced.",
             "image": "img/mbody.png",
-            "width": 1152,
-            "height": 856,
+            "width": 576,
+            "height": 428,
             "map": "maps/mbody.html",
             "hideInput": true,
             "options": "0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
@@ -278,6 +281,45 @@
             "height": 820,
             "hideInput": true,
             "map": "maps/derm_photo_body.html"
+        },
+        "66SWOLLEN_68TENDER_JOINT_COUNT": {
+            "name": "66swollen_68tender_joint_count",
+            "alt": "SJC66_TJC68",
+            "desc": "Joint map for recording tender and swollen joint counts in patients with inflammatory arthritis.",
+            "options": "tmj_r_swln,tmj_l_swln,acj_r_swln,scj_r_swln,scj_l_swln,acj_l_swln,shldr_r_swln,shldr_l_swln,elbw_r_swln,elbw_l_swln,wrst_r_swln,wrst_l_swln,thmb_mcp1_r_swln,thmb_mcp1_l_swln,thmb_pip1_r_swln,thmb_pip1_l_swln,fngr_mcp5_r_swln,fngr_mcp4_r_swln,fngr_mcp3_r_swln,fngr_mcp2_r_swln,fngr_mcp2_l_swln,fngr_mcp3_l_swln,fngr_mcp4_l_swln,fngr_mcp5_l_swln,fngr_pip5_r_swln,fngr_pip4_r_swln,fngr_pip3_r_swln,fngr_pip2_r_swln,fngr_pip2_l_swln,fngr_pip3_l_swln,fngr_pip4_l_swln,fngr_pip5_l_swln,fngr_dip5_r_swln,fngr_dip4_r_swln,fngr_dip3_r_swln,fngr_dip2_r_swln,fngr_dip2_l_swln,fngr_dip3_l_swln,fngr_dip4_l_swln,fngr_dip5_l_swln,knee_r_swln,knee_l_swln,ankle_r_swln,ankle_l_swln,midfoot_r_swln,midfoot_l_swln,toe_mtp5_r_swln,toe_mtp4_r_swln,toe_mtp3_r_swln,toe_mtp2_r_swln,toe_mtp1_r_swln,toe_mtp1_l_swln,toe_mtp2_l_swln,toe_mtp3_l_swln,toe_mtp4_l_swln,toe_mtp5_l_swln,toe_pip5_r_swln,toe_pip4_r_swln,toe_pip3_r_swln,toe_pip2_r_swln,toe_pip1_r_swln,toe_pip1_l_swln,toe_pip2_l_swln,toe_pip3_l_swln,toe_pip4_l_swln,toe_pip5_l_swln,tmj_r_tndr,tmj_l_tndr,acj_r_tndr,scj_r_tndr,scj_l_tndr,acj_l_tndr,shldr_r_tndr,shldr_l_tndr,elbw_r_tndr,elbw_l_tndr,hip_r_tndr,hip_l_tndr,wrist_r_tndr,wrist_l_tndr,thmb_mcp1_r_tndr,thmb_mcp1_l_tndr,thmb_pip1_r_tndr,thmb_pip1_l_tndr,fngr_mcp5_r_tndr,fngr_mcp4_r_tndr,fngr_mcp3_r_tndr,fngr_mcp2_r_tndr,fngr_mcp2_l_tndr,fngr_mcp3_l_tndr,fngr_mcp4_l_tndr,fngr_mcp5_l_tndr,fngr_pip5_r_tndr,fngr_pip4_r_tndr,fngr_pip3_r_tndr,fngr_pip2_r_tndr,fngr_pip2_l_tndr,fngr_pip3_l_tndr,fngr_pip4_l_tndr,fngr_pip5_l_tndr,fngr_dip5_r_tndr,fngr_dip4_r_tndr,fngr_dip3_r_tndr,fngr_dip2_r_tndr,fngr_dip2_l_tndr,fngr_dip3_l_tndr,fngr_dip4_l_tndr,fngr_dip5_l_tndr,knee_r_tndr,knee_l_tndr,ankle_r_tndr,ankle_l_tndr,midfoot_r_tndr,midfoot_l_tndr,toe_mtp5_r_tndr,toe_mtp4_r_tndr,toe_mtp3_r_tndr,toe_mtp2_r_tndr,toe_mtp1_r_tndr,toe_mtp1_l_tndr,toe_mtp2_l_tndr,toe_mtp3_l_tndr,toe_mtp4_l_tndr,toe_mtp5_l_tndr,toe_pip5_r_tndr,toe_pip4_r_tndr,toe_pip3_r_tndr,toe_pip2_r_tndr,toe_pip1_r_tndr,toe_pip1_l_tndr,toe_pip2_l_tndr,toe_pip3_l_tndr,toe_pip4_l_tndr,toe_pip5_l_tndr, nil_tndrorswln_joints",
+            "data_dict_default": "tmj_r_swln, Right Temporomandibular Swollen | tmj_l_swln, Left Temporomandibular Swollen | acj_r_swln, Right Acromioclavicular Swollen | scj_r_swln, Right Sternoclavicular Swollen | scj_l_swln, Left Sternoclavicular Swollen | acj_l_swln, Left Acromioclavicular Swollen | shldr_r_swln, Right Shoulder Swollen | shldr_l_swln, Left Shoulder Swollen | elbw_r_swln, Right Elbow Swollen | elbw_l_swln, Left Elbow Swollen | wrst_r_swln, Right Wrist Swollen | wrst_l_swln, Left Wrist Swollen | thmb_mcp1_r_swln, Right Thumb MCP Swollen | thmb_mcp1_l_swln, Left Thumb MCP Swollen | thmb_pip1_r_swln, Right Thumb PIP Swollen | thmb_pip1_l_swln, Left Thumb PIP Swollen | fngr_mcp5_r_swln, Right Pinky/Little Finger MCP Swollen | fngr_mcp4_r_swln, Right Ring Finger MCP Swollen | fngr_mcp3_r_swln, Right Middle Finger MCP Swollen | fngr_mcp2_r_swln, Right Index Finger MCP Swollen | fngr_mcp2_l_swln, Left Index Finger MCP Swollen | fngr_mcp3_l_swln, Left Middle Finger MCP Swollen | fngr_mcp4_l_swln, Left Ring Finger MCP Swollen | fngr_mcp5_l_swln, Left Pinky/Little Finger MCP Swollen | fngr_pip5_r_swln, Right Pinky/Little Finger PIP Swollen | fngr_pip4_r_swln, Right Ring Finger PIP Swollen | fngr_pip3_r_swln, Right Middle Finger PIP Swollen | fngr_pip2_r_swln, Right Index Finger PIP Swollen | fngr_pip2_l_swln, Left Index Finger PIP Swollen | fngr_pip3_l_swln, Left Middle Finger PIP Swollen | fngr_pip4_l_swln, Left Ring Finger PIP Swollen | fngr_pip5_l_swln, Left Pinky/Little Finger PIP Swollen | fngr_dip5_r_swln, Right Pinky/Little Finger DIP Swollen | fngr_dip4_r_swln, Right Ring Finger DIP Swollen | fngr_dip3_r_swln, Right Middle Finger DIP Swollen | fngr_dip2_r_swln, Right Index Finger DIP Swollen | fngr_dip2_l_swln, Left Index Finger DIP Swollen | fngr_dip3_l_swln, Left Middle Finger DIP Swollen | fngr_dip4_l_swln, Left Ring Finger DIP Swollen | fngr_dip5_l_swln, Left Pinky/Little Finger DIP Swollen | knee_r_swln, Right Knee Swollen | knee_l_swln, Left Knee Swollen | ankle_r_swln, Right Ankle Swollen | ankle_l_swln, Left Ankle Swollen | midfoot_r_swln, Right Midfoot/tarsus Swollen | midfoot_l_swln, Left Midfoot/tarsus Swollen | toe_mtp5_r_swln, Right Pinky/Little Toe MTP Swollen | toe_mtp4_r_swln, Right Ring Toe MTP Swollen | toe_mtp3_r_swln, Right Middle Toe MTP Swollen | toe_mtp2_r_swln, Right Index Toe MTP Swollen | toe_mtp1_r_swln, Right Big Toe MTP Swollen | toe_mtp1_l_swln, Left Big Toe MTP Swollen | toe_mtp2_l_swln, Left Index Toe MTP Swollen | toe_mtp3_l_swln, Left Middle Toe MTP Swollen | toe_mtp4_l_swln, Left Ring Toe MTP Swollen | toe_mtp5_l_swln, Left Pinky/Little Toe MTP Swollen | toe_pip5_r_swln, Right Pinky/Little Toe PIP Swollen | toe_pip4_r_swln, Right Ring Toe PIP Swollen | toe_pip3_r_swln, Right Middle Toe PIP Swollen | toe_pip2_r_swln, Right Index Toe PIP Swollen | toe_pip1_r_swln, Right Big Toe PIP Swollen | toe_pip1_l_swln, Left Big Toe PIP Swollen | toe_pip2_l_swln, Left Index Toe PIP Swollen | toe_pip3_l_swln, Left Middle Toe PIP Swollen | toe_pip4_l_swln, Left Ring Toe PIP Swollen | toe_pip5_l_swln, Left Pinky/Little Toe PIP Swollen | tmj_r_tndr, Right Temporomandibular Tender | tmj_l_tndr, Left Temporomandibular Tender | acj_r_tndr, Right Acromioclavicular Tender | scj_r_tndr, Right Sternoclavicular Tender | scj_l_tndr, Left Sternoclavicular Tender | acj_l_tndr, Left Acromioclavicular Tender | shldr_r_tndr, Right Shoulder Tender | shldr_l_tndr, Left Shoulder Tender | elbw_r_tndr, Right Elbow Tender | elbw_l_tndr, Left Elbow Tender | hip_r_tndr, Right Hip Tender | hip_l_tndr, Left Hip Tender | wrist_r_tndr, Right Wrist Tender | wrist_l_tndr, Left Wrist Tender | thmb_mcp1_r_tndr, Right Thumb MCP Tender | thmb_mcp1_l_tndr, Left Thumb MCP Tender | thmb_pip1_r_tndr, Right Thumb PIP Tender | thmb_pip1_l_tndr, Left Thumb PIP Tender | fngr_mcp5_r_tndr, Right Pinky/Little Finger MCP Tender | fngr_mcp4_r_tndr, Right Ring Finger MCP Tender | fngr_mcp3_r_tndr, Right Middle Finger MCP Tender | fngr_mcp2_r_tndr, Right Index Finger MCP Tender | fngr_mcp2_l_tndr, Left Index Finger MCP Tender | fngr_mcp3_l_tndr, Left Middle Finger MCP Tender | fngr_mcp4_l_tndr, Left Ring Finger MCP Tender | fngr_mcp5_l_tndr, Left Pinky/Little Finger MCP Tender | fngr_pip5_r_tndr, Right Pinky/Little Finger PIP Tender | fngr_pip4_r_tndr, Right Ring Finger PIP Tender | fngr_pip3_r_tndr, Right Middle Finger PIP Tender | fngr_pip2_r_tndr, Right Index Finger PIP Tender | fngr_pip2_l_tndr, Left Index Finger PIP Tender | fngr_pip3_l_tndr, Left Middle Finger PIP Tender | fngr_pip4_l_tndr, Left Ring Finger PIP Tender | fngr_pip5_l_tndr, Left Pinky/Little Finger PIP Tender | fngr_dip5_r_tndr, Right Pinky/Little Finger DIP Tender | fngr_dip4_r_tndr, Right Ring Finger DIP Tender | fngr_dip3_r_tndr, Right Middle Finger DIP Tender | fngr_dip2_r_tndr, Right Index Finger DIP Tender | fngr_dip2_l_tndr, Left Index Finger DIP Tender | fngr_dip3_l_tndr, Left Middle Finger DIP Tender | fngr_dip4_l_tndr, Left Ring Finger DIP Tender | fngr_dip5_l_tndr, Left Pinky/Little Finger DIP Tender | knee_r_tndr, Right Knee Tender | knee_l_tndr, Left Knee Tender | ankle_r_tndr, Right Ankle Tender | ankle_l_tndr, Left Ankle Tender | midfoot_r_tndr, Right Midfoot/tarsus Tender | midfoot_l_tndr, Left Midfoot/tarsus Tender | toe_mtp5_r_tndr, Right Pinky/Little Toe MTP Tender | toe_mtp4_r_tndr, Right Ring Toe MTP Tender | toe_mtp3_r_tndr, Right Middle Toe MTP Tender | toe_mtp2_r_tndr, Right Index Toe MTP Tender | toe_mtp1_r_tndr, Right Big Toe MTP Tender | toe_mtp1_l_tndr, Left Big Toe MTP Tender | toe_mtp2_l_tndr, Left Index Toe MTP Tender | toe_mtp3_l_tndr, Left Middle Toe MTP Tender | toe_mtp4_l_tndr, Left Ring Toe MTP Tender | toe_mtp5_l_tndr, Left Pinky/Little Toe MTP Tender | toe_pip5_r_tndr, Right Pinky/Little Toe PIP Tender | toe_pip4_r_tndr, Right Ring Toe PIP Tender | toe_pip3_r_tndr, Right Middle Toe PIP Tender | toe_pip2_r_tndr, Right Index Toe PIP Tender | toe_pip1_r_tndr, Right Big Toe PIP Tender | toe_pip1_l_tndr, Left Big Toe PIP Tender | toe_pip2_l_tndr, Left Index Toe PIP Tender | toe_pip3_l_tndr, Left Middle Toe PIP Tender | toe_pip4_l_tndr, Left Ring Toe PIP Tender | toe_pip5_l_tndr, Left Pinky/Little Toe PIP Tender | nil_tndrorswln_joints, No tender or swollen joints",
+            "image": "img/66swollen_68tender_joint_count.png",
+            "width": 590,
+            "height": 614,
+            "hideInput": true,
+            "map": "maps/66swollen_68tender_joint_count.html"
+        },
+		"FR_REGION": {
+            "name": "fr_region",
+            "alt": "French Region 2020 - Région Française 2020",
+            "desc": "French Region 2020 : to localize in one click a region - Région Française 2020 : Pour localiser en un clic une région.",
+            "options": "1,2,3,4,6,11,24,27,28,32,44,52,53,75,76,84,93,94",
+            "data_dict_default": "1,GUADELOUPE | 2,MARTINIQUE | 3,GUYANE | 4,LA REUNION | 6,MAYOTTE | 11,ILE DE FRANCE | 24,CENTRE VAL DE LOIRE | 27,BOURGOGNE FRANCHE COMTE | 28,NORMANDIE | 32,HAUTS DE FRANCE | 44,GRAND EST | 52,PAYS DE LA LOIRE | 53,BRETAGNE | 75,NOUVELLE AQUITAINE | 76,OCCITANIE | 84,AUVERGNE RHONE ALPES | 93,PROVENCE ALPES COTE D AZUR | 94,CORSE",
+            "image": "img/france_region_nb.png",
+            "width": 765,
+            "height": 701,
+            "hideInput": true,
+			"singleSelect": true,
+            "map": "maps/fr_region.html"
+        },
+        "FIBROMYALGIA_BODY": {
+            "name": "fibromyalgia_body",
+            "alt": "Fibromyalgia Bodymap",
+            "desc": "Bodymap for use in Fibromyalgia research.",
+            "options": "01,02,03,04,05,06,07,08,09,10,11,12,13,14,15,16,17,18,19",
+            "data_dict_default": "01, Right jaw | 02, Left jaw | 03, Neck | 04, Right Shoulder | 05, Left Shoulder | 06, Chest or breast | 07, Upper back | 08, Right upper arm | 09, Left upper arm | 10, Abdomen | 11, Lower back | 12, Right lower arm | 13, Left lower arm | 14, Right hip or buttocks | 15, Left hip or buttocks | 16, Right upper leg | 17, Left upper leg | 18, Right lower leg | 19, Left lower leg",
+            "image": "img/fibromyalgia.png",
+            "width": 708,
+            "height": 867,
+            "hideInput": true,
+            "singleSelect": false,
+            "fillColor": "0000cc",
+            "map": "maps/fibromyalgia.html"
         }
     }
 }
