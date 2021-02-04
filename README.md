@@ -150,6 +150,12 @@ This project includes an [Example Instrument](docs/Instrument\ Example.zip) that
 
 ## Acknowledgements & Copyright
  * The original body was devised by Dr. Ming-Chih J Kao and Professor Sean Mackey at Stanford University as part of [CHOIR](choir.stanford.edu). Use of the 'bodymap' images requires that the CHOIR attribution remains intact.
+   * Use of the 'PAINMAP_MALE' or 'PAINMAP_FEMALE' images for publication must include the following [citation](https://pubmed.ncbi.nlm.nih.gov/33490848/):
+     ```Scherrer, Kristen Hymel,; Ziadni, Maisa S.; Kong, Jiang-Ti; Sturgeon, John A.;
+     Salmasi, Vafi; Hong, Juliette; Cramer, Eric; Chen, Abby L.; Pacht, Teresa; Olson, Garrick;
+     Darnall, Beth D.; Kao, Ming-Chih; Mackey, Sean.   Development and validation of the Collaborative 
+     Health Outcomes Information Registry body map, PAIN Reports: 
+     January/February 2021 - Volume 6 - Issue 1 - p e880 doi: 10.1097/PR9.0000000000000880
  * The imagemap plugin/hook was written at Stanford by Andrew Martin and converted to an external module in collaboration with CTS-IT - University of Florida.
  * The 5-face pain image and map was included by Lewisa2.
  * The odontogram maps were contributed by Bas de Veer and collaborators at the ITHS and Christy McKinney at the University of Washington and Seattle Children’s Research Institute.
