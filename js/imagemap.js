@@ -170,10 +170,13 @@ imageMapEM.render = function(params) {
     imageMapEM.loadAreaList(params.field);
 
     // If bound to a checkbox, handle checking the checkbox inputs directly to update the map
-    $('input[type=checkbox]', tr).parent().bind('click', function() {
+
+    // imageMapEM.log("TR",tr);
+    $('input[type=checkbox]', tr).parent().bind('click', function(event) {
+        // imageMapEM.log("Clicked Div!", this, event);
         // Prevent this code from happening twice when the event is fired from a click
         // on the imageMap
-        if(event.isTrusted) {
+        if (event.isTrusted) {
             // imageMapEM.log(this, event);
             var tr = $(this).closest('tr');
             //imageMapEM.log(tr);
@@ -191,7 +194,18 @@ imageMapEM.render = function(params) {
         }
     });
 
-
+    // Handle change in checkboxes with later redcap versions
+    $('input[type=checkbox]', tr).bind('click', function(event) {
+        if (event.isTrusted) {
+            // imageMapEM.log("Clicked Box!", this);
+            let checkbox = $(this);
+            var code = checkbox.attr('code');
+            //imageMapEM.log(code);
+            var checked = checkbox.is(":checked");
+            //imageMapEM.log(checked);
+            $(img).mapster('set', checked, code);
+        }
+    });
 
     // If bound to radio, capture radio changes and update imageMap
     $('input[type=radio]', tr).bind('click', function() {
@@ -221,28 +235,38 @@ imageMapEM.render = function(params) {
 imageMapEM.loadAreaList = function(field_name) {
     // Get TR for question
     var tr = $('tr[sq_id='+field_name+']');
-    //imageMapEM.log ('tr');imageMapEM.log(tr);
+    // imageMapEM.log ('tr');imageMapEM.log(tr);
 
     img = $('img[field="'+field_name+'"]', tr).not(".mapster_el");
-    //imageMapEM.log ('img');imageMapEM.log(img);
+    // imageMapEM.log ('img');imageMapEM.log(img);
 
     // If checkboxes are used, then update imagemap from values
     $('input[type=checkbox]:checked', tr).each(function() {
         // (this) is redcap checkbox field.
         var code = $(this).attr('code');
-        //imageMapEM.log('Code: ' + code);
+        imageMapEM.log('Code: ' + code);
         $(img).mapster('set',true,code);
     });
 
     // If text - then process from list
+    // imageMapEM.log("TEXT");
     $('input[type=text][name="'+field_name+'"]', tr).each(function() {
         $(img).mapster('set',true,$(this).val());
     });
 
     // For radio button questions, the main input is here - use it to set value
+    // imageMapEM.log("RADIO");
     $('input[name="'+field_name+'"]', tr).each(function() {
         let val = $(this).val();
-        if ( $(img).mapster('get') != val ) { // avoid infinite loop
+
+        // This was causing an error -- so I commented out the check.
+        let mapVal = null;
+        try {
+            mapVal = $(img).mapster('get');
+        } catch (errror) {
+            imageMapEM.log("caught get val exception for " + field_name);
+        }
+        if ( mapVal != val ) { // avoid infinite loop
             $(img).mapster('set',true,val);
         };
     });
