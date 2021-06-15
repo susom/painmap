@@ -118,9 +118,7 @@ class ExternalModule extends AbstractExternalModule {
      *   The relative path to the js file.
      */
     protected function includeJs($path) {
-        // Use noauth method, but not the API endpoint, to load resources while not in network
-        // $ext_path = $this->getUrl($path, true, false);
-        $use_api_urls = $this->getSystemSetting('use-api-urls');
+        $use_api_urls = (bool) $this->getSystemSetting('use-api-urls');
         $ext_path = $this->getUrl($path, true, $use_api_urls);
 
         echo '<script src="' . $ext_path . '"></script>';

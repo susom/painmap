@@ -19,6 +19,11 @@ This REDCap module replaces an input, radio, or checkbox field with an image tha
 - Go to **Control Center > External Modules** and enable Image Map.
 - To activate this module for a particular project, go to the project home page, click on the **External Modules** link, and then enable Image Map for that project.
 
+## Global Configuration
+
+- **Use API endpoint for urls**: May need to be checked to allow module to work as expected in surveys.
+  - You may or may not need this depending on your web server's configuration (determining which is beyond the scope of this document).
+
 
 ## Features included
 This module defines a new action tag: `@IMAGEMAP`. The possible values for this tag are:

@@ -170,10 +170,7 @@ imageMapEM.render = function(params) {
     imageMapEM.loadAreaList(params.field);
 
     // If bound to a checkbox, handle checking the checkbox inputs directly to update the map
-
-    // imageMapEM.log("TR",tr);
     $('input[type=checkbox]', tr).parent().bind('click', function(event) {
-        // imageMapEM.log("Clicked Div!", this, event);
         // Prevent this code from happening twice when the event is fired from a click
         // on the imageMap
         if (event.isTrusted) {
@@ -244,7 +241,7 @@ imageMapEM.loadAreaList = function(field_name) {
     $('input[type=checkbox]:checked', tr).each(function() {
         // (this) is redcap checkbox field.
         var code = $(this).attr('code');
-        imageMapEM.log('Code: ' + code);
+        //imageMapEM.log('Code: ' + code);
         $(img).mapster('set',true,code);
     });
 
@@ -259,7 +256,7 @@ imageMapEM.loadAreaList = function(field_name) {
     $('input[name="'+field_name+'"]', tr).each(function() {
         let val = $(this).val();
 
-        // This was causing an error -- so I commented out the check.
+        // This was causing an error for text storage in newer redcap versions -- so I'm wrapping it.
         let mapVal = null;
         try {
             mapVal = $(img).mapster('get');
