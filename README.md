@@ -121,6 +121,12 @@ French Region 2020 : to localize in one click a region - Région Française 2020
 This is a Patient self-report figure for the Assessment of Fibromyalgia.
 ![FIBROMYALGIA_BODY](./img/fibromyalgia.png)
 
+**`DERM_PHOTO_BODY`**
+
+This is a body rendering developed at Stanford for a specific project -- no attributions required.
+![DERM_PHOTO_BODY](./img/derm_photo_body.png)
+
+
 ## Usage
 To display one of the images above in a survey or data entry form, add a new field of type **Text Box** and include one of the following options in the **Action Tags / Field Annotation (optional)** field:
 
