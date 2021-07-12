@@ -320,6 +320,19 @@
             "singleSelect": false,
             "fillColor": "0000cc",
             "map": "maps/fibromyalgia.html"
+        },
+        "SZMN_FRONT": {
+            "name": "szmn_front",
+            "alt": "SZMN Front",
+            "desc": "Facemap for pain",
+            "options": "01,02,03,04,05,06,07,08,09,10,11,12,13,14,15",
+            "data_dict_default": "01, Left Eye | 02, Right Eye | 03, Nose | 04, Mouth | 05, Left Jaw | 06, Right Jaw | 07, Voicebox | 08, Throat | 09, Left Cheek | 10, Right Cheek | 11, Left Temple | 12, Right Temple | 13, Left Ear | 14, Right Ear | 15, Head",
+            "image": "img/szmn_front.png",
+            "width": 572,
+            "height": 714,
+            "hideInput": true,
+            "singleSelect": false,
+            "map": "maps/szmn_front.html"
         }
     }
 }
